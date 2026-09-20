@@ -216,13 +216,6 @@ ul{margin:0;padding:0;list-style:none}
   .hero-line{display:block;border-left:1px solid rgba(255,255,255,.22);padding-left:28px;color:rgba(255,255,255,.7);font-size:13px;line-height:1.85}
   .hero-line strong{display:block;color:#fff;font-weight:500;letter-spacing:.14em;text-transform:uppercase;font-size:11px;margin-bottom:12px}
 }
-.scroll-ind{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);z-index:3;display:flex;flex-direction:column;
-  align-items:center;gap:10px;color:rgba(255,255,255,.62);font-size:9.5px;letter-spacing:.3em;text-transform:uppercase}
-.scroll-ind i{width:1px;height:54px;background:linear-gradient(180deg,rgba(255,255,255,.1),rgba(255,255,255,.7));position:relative;overflow:hidden}
-.scroll-ind i::after{content:"";position:absolute;left:0;top:-54px;width:1px;height:54px;background:var(--blue);animation:drip 2.4s infinite var(--ease)}
-@keyframes drip{0%{top:-54px}60%,100%{top:54px}}
-@media (max-width:640px){.scroll-ind{display:none}}
-
 /* ---------- search ---------- */
 .search{position:relative;z-index:6;margin-top:-40px}
 .search-card{background:#fff;box-shadow:0 30px 70px -40px rgba(0,0,0,.55);border:1px solid var(--line)}
