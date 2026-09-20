@@ -224,7 +224,7 @@ ul{margin:0;padding:0;list-style:none}
 @media (max-width:640px){.scroll-ind{display:none}}
 
 /* ---------- search ---------- */
-.search{position:relative;z-index:6;margin-top:-72px}
+.search{position:relative;z-index:6;margin-top:-40px}
 .search-card{background:#fff;box-shadow:0 30px 70px -40px rgba(0,0,0,.55);border:1px solid var(--line)}
 .search-tabs{display:flex;border-bottom:1px solid var(--line)}
 .search-tabs button{
