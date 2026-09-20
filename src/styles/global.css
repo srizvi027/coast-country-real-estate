@@ -205,7 +205,7 @@ ul{margin:0;padding:0;list-style:none}
 .hero-bg{position:absolute;inset:-8% 0 -8%;will-change:transform}
 .hero-bg::after{content:"";position:absolute;inset:0;
   background:linear-gradient(180deg,rgba(0,0,0,.62) 0%,rgba(0,0,0,.18) 34%,rgba(0,0,0,.34) 62%,rgba(3,12,20,.86) 100%)}
-.hero-in{position:relative;z-index:2;width:100%;padding:clamp(120px,18vh,200px) 0 clamp(52px,9vh,96px);color:#fff}
+.hero-in{position:relative;z-index:2;width:100%;padding:clamp(120px,18vh,200px) var(--gut) clamp(52px,9vh,96px);color:#fff}
 .hero h1{margin:26px 0 0;max-width:15ch}
 .hero .hero-sub{margin-top:26px;max-width:46ch;color:rgba(255,255,255,.76);font-size:clamp(.95rem,1.1vw,1.06rem)}
 .hero .hero-sub b{display:block;font-weight:500;color:#fff;letter-spacing:.02em;margin-bottom:10px;font-size:1.02em}
